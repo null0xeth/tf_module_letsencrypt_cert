@@ -30,7 +30,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_acme"></a> [acme](#input\_acme) | n/a | <pre>object({<br>    email       = optional(string)<br>    cf_api_key  = optional(string)<br>    common_name = optional(string)<br>    sans        = optional(list(string))<br>    provider    = optional(string)<br>  })</pre> | n/a | yes |
+| <a name="input_acme"></a> [acme](#input\_acme) | Configuration for the letsencrypt provider | <pre>object({<br>    email       = optional(string)<br>    cf_api_key  = optional(string)<br>    common_name = optional(string)<br>    sans        = optional(list(string))<br>    provider    = optional(string)<br>  })</pre> | n/a | yes |
 
 ## Outputs
 
