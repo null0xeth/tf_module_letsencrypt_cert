@@ -1,4 +1,5 @@
 variable "acme" {
+  description = "Configuration for the letsencrypt provider"
   type = object({
     email       = optional(string)
     cf_api_key  = optional(string)
